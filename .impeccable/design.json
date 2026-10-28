@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T00:00:00Z",
+  "title": "Design System: Daniel Folorunsho Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "page": {
+        "role": "neutral",
+        "displayName": "Soft White",
+        "canonical": "#f7f7f7",
+        "tonalRamp": [
+          "#050505",
+          "#050505",
+          "#777777",
+          "#777777",
+          "#f7f7f7",
+          "#f7f7f7",
+          "#ffffff",
+          "#ffffff"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#050505",
+          "#050505",
+          "#777777",
+          "#777777",
+          "#f7f7f7",
+          "#f7f7f7",
+          "#ffffff",
+          "#ffffff"
+        ]
+      },
+      "black": {
+        "role": "neutral",
+        "displayName": "Near Black",
+        "canonical": "#050505",
+        "tonalRamp": [
+          "#050505",
+          "#050505",
+          "#777777",
+          "#777777",
+          "#f7f7f7",
+          "#f7f7f7",
+          "#ffffff",
+          "#ffffff"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#050505",
+        "tonalRamp": [
+          "#050505",
+          "#050505",
+          "#777777",
+          "#777777",
+          "#f7f7f7",
+          "#f7f7f7",
+          "#ffffff",
+          "#ffffff"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Bright Teal",
+        "canonical": "#00bfa6",
+        "tonalRamp": [
+          "#008f7a",
+          "#008f7a",
+          "#008f7a",
+          "#008f7a",
+          "#00bfa6",
+          "#00bfa6",
+          "#00bfa6",
+          "#00bfa6"
+        ]
+      },
+      "accent-text": {
+        "role": "primary",
+        "displayName": "Deep Teal",
+        "canonical": "#008f7a",
+        "tonalRamp": [
+          "#008f7a",
+          "#008f7a",
+          "#008f7a",
+          "#008f7a",
+          "#00bfa6",
+          "#00bfa6",
+          "#00bfa6",
+          "#00bfa6"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Gray",
+        "canonical": "#777777",
+        "tonalRamp": [
+          "#050505",
+          "#050505",
+          "#777777",
+          "#777777",
+          "#f7f7f7",
+          "#f7f7f7",
+          "#ffffff",
+          "#ffffff"
+        ]
+      },
+      "chip": {
+        "role": "neutral",
+        "displayName": "Muted Gray Chip",
+        "canonical": "#777777",
+        "tonalRamp": [
+          "#050505",
+          "#050505",
+          "#777777",
+          "#777777",
+          "#f7f7f7",
+          "#f7f7f7",
+          "#ffffff",
+          "#ffffff"
+        ]
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "Bright Teal Primitive",
+        "canonical": "#00bfa6",
+        "tonalRamp": [
+          "#008f7a",
+          "#008f7a",
+          "#008f7a",
+          "#008f7a",
+          "#00bfa6",
+          "#00bfa6",
+          "#00bfa6",
+          "#00bfa6"
+        ]
+      },
+      "teal-deep": {
+        "role": "primary",
+        "displayName": "Deep Teal Primitive",
+        "canonical": "#008f7a",
+        "tonalRamp": [
+          "#008f7a",
+          "#008f7a",
+          "#008f7a",
+          "#008f7a",
+          "#00bfa6",
+          "#00bfa6",
+          "#00bfa6",
+          "#00bfa6"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Deep Teal Focus",
+        "canonical": "#008f7a",
+        "tonalRamp": [
+          "#008f7a",
+          "#008f7a",
+          "#008f7a",
+          "#008f7a",
+          "#00bfa6",
+          "#00bfa6",
+          "#00bfa6",
+          "#00bfa6"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Full-name hero heading with italic deep-teal emphasis."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Work section heading."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Accordion row titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Product descriptions."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Navigation and control labels."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Short reveal and arrow transitions."
+      },
+      {
+        "name": "reveal",
+        "value": "230ms",
+        "purpose": "Accordion content reveal; disabled with reduced motion."
+      },
+      {
+        "name": "focus-outline",
+        "value": "3px solid #008f7a; outline-offset: 5px",
+        "purpose": "Visible keyboard focus on links, buttons and summaries."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1200px"
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "900px"
+      },
+      {
+        "name": "small-screen",
+        "value": "600px"
+      },
+      {
+        "name": "narrow-screen",
+        "value": "375px"
+      },
+      {
+        "name": "wide-screen-cap",
+        "value": "1600px"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Manrope",
+        "path": "assets/fonts/manrope.ttf",
+        "weight": "200 800",
+        "license": "assets/fonts/manrope-OFL.txt",
+        "provenance": "Official Google Fonts Manrope distribution"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Contact Button",
+      "kind": "button",
+      "refersTo": "contact-button",
+      "description": "Black capsule contact link with bright-teal hover and a near-black label.",
+      "html": "<a class=\"contact-button\" href=\"#contact\">Contact Me</a>",
+      "css": ".contact-button{height:56px;min-width:150px;display:inline-grid;place-items:center;background:#050505;color:#ffffff;border-radius:999px;font:600 16px Manrope,sans-serif;text-decoration:none;transition:background 180ms}.contact-button:hover{background:#00bfa6;color:#050505}.contact-button:focus-visible{outline:3px solid #008f7a;outline-offset:5px}"
+    },
+    {
+      "name": "Skill Chips",
+      "kind": "chip",
+      "refersTo": "skill-chip",
+      "description": "Black capsules with white labels and bright-teal capsules with near-black labels.",
+      "html": "<div class=\"chips\"><span>Flutter</span><span class=\"accent\">TypeScript</span></div>",
+      "css": ".chips{display:flex;gap:12px;font-family:Manrope,sans-serif}.chips span{padding:7px 15px;min-height:37px;border-radius:999px;background:#050505;color:#ffffff;font-size:16px;line-height:1.25;font-weight:550}.chips .accent{background:#00bfa6;color:#050505}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "White capsule navigation with a deep-teal active underline, near-black text and black contact link.",
+      "html": "<nav class=\"nav\"><strong>Daniel.</strong><a class=\"active\" href=\"#home\">Home</a><a href=\"#work\">My Work</a><a class=\"contact\" href=\"#contact\">Contact Me</a></nav>",
+      "css": ".nav{display:flex;align-items:center;gap:31px;padding:12px 16px;border-radius:999px;background:#ffffff;color:#050505;font:550 16px Manrope,sans-serif}.nav a{color:inherit;text-decoration:none}.nav .active{color:#050505;text-decoration:underline;text-decoration-color:#008f7a;text-underline-offset:7px}.nav .contact{margin-left:auto;background:#050505;color:#ffffff;border-radius:999px;padding:17px 23px}"
+    },
+    {
+      "name": "Accordion Row",
+      "kind": "custom",
+      "refersTo": "accordion-row",
+      "description": "Native disclosure changes from soft white to near-black when expanded, with a deep-teal arrow control and muted-gray explanatory text.",
+      "html": "<details class=\"row\" open><summary><span>02.</span><strong>Kova</strong><span class=\"arrow\">↗</span></summary><p>An offline desktop tool for shipping manifests, packing lists and billing through WhatsApp.</p></details>",
+      "css": ".row{background:#f7f7f7;color:#050505;border-radius:24px;padding:28px 35px;font-family:Manrope,sans-serif}.row summary{display:flex;align-items:center;gap:32px;list-style:none;cursor:pointer;font-size:26px}.row .arrow{margin-left:auto;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:#ffffff;color:#050505}.row[open]{background:#050505;color:#ffffff}.row[open] .arrow{background:#008f7a;color:#ffffff}.row p{margin:22px 0 0 70px;max-width:565px;color:#050505;font-size:17px;line-height:1.55}.row[open] p{color:#777777}.row summary:focus-visible{outline:3px solid #008f7a;outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Daniel's work in the reference's composition.",
+    "overview": "The user selected an adaptation of the supplied Oliver Scott reference. Its light gray hero, centered portrait, independent side elements, black ticker and rounded accordion establish the page's character. Daniel's longer name, close-up portrait, actual products and factual copy intentionally differ from the reference. This direction supersedes the earlier cream and amber treatment.",
+    "keyCharacteristics": [
+      "Soft-white and white surfaces, near-black structure and teal accents.",
+      "Manrope throughout, with a large italic name and selected italic heading words.",
+      "Layered portrait composition, capsule controls and large open accordion rows.",
+      "Real product screenshots and direct founder language."
+    ],
+    "rules": [
+      {
+        "section": "Colors",
+        "name": "The Accent Rule",
+        "body": "Keep bright teal concentrated in the same prominent details and use near-black labels on bright-teal fills. Use deep teal for heading emphasis, focus outlines and circular controls with white icons. Keep secondary gray text on near-black surfaces; use near-black for small text on light surfaces."
+      },
+      {
+        "section": "Typography",
+        "name": "The Name Rule",
+        "body": "Keep Daniel's full name, italic treatment and tight display tracking; accommodate its length through responsive sizing and wrapping."
+      }
+    ],
+    "dos": [
+      "**Do** preserve the selected reference composition while using Daniel's full identity and factual product evidence.",
+      "**Do** retain the supplied portrait and product screenshots without image edits.",
+      "**Do** preserve visible keyboard focus, semantic disclosure controls and reduced-motion behavior."
+    ],
+    "donts": [
+      "**Don't** restore the superseded cream, amber or two-font system.",
+      "**Don't** replace actual screenshots with fictional product states or the reference's stock imagery.",
+      "**Don't** copy reference testimonials, availability claims or services into Daniel's portfolio."
+    ]
+  }
+}
